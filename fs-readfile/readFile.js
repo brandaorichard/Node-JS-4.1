@@ -1,16 +1,16 @@
 // Lendo arquivos METODO SYNC
 
-// const fs = require('fs');
+const fs = require('fs');
 
-// const nomeDoArquivo = 'meu-arquivo.txt';
+const nomeDoArquivo = 'meu-arquivo.txt';
 
-// try {
-//   const data = fs.readFileSync(nomeDoArquivo, 'utf8');
-//   console.log(data);
-// } catch (err) {
-//   console.error(`Erro ao ler o arquivo: ${err.path}`);
-//   console.log(err);
-// }
+try {
+  const data = fs.readFileSync(nomeDoArquivo, 'utf8');
+  console.log(data);
+} catch (err) {
+  console.error(`Erro ao ler o arquivo: ${err.path}`);
+  console.log(err);
+}
 
 
 // Lendo arquivos METODO ASYNC (readFile)

@@ -1,4 +1,4 @@
-// Exercicio 6 - A: Crie uma função que leia todos os dados do arquivo e imprima cada personagem no formato id - Nome. Por exemplo: 1 - Homer Simpson.
+// Exercicio 6 - A: Crie uma função que leia todos os dados do arquivo e imprima cada personagem no formato id - Nome. Por exemplo: 1 - Homer Simpson
 
 // importacao do fs
 const fs = require('fs').promises
